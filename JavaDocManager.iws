@@ -161,16 +161,16 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="JavaDocSyncPlugin" />
+    <favorites_list name="JavaDocManager" />
   </component>
   <component name="FavoritesProjectViewPane">
-    <subPane subId="JavaDocSyncPlugin">
+    <subPane subId="JavaDocManager">
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" />
@@ -184,7 +184,7 @@
       <file leaf-file-name="PsiUtils.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/perniciouspenguins/ideaz/javadoc/util/PsiUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="275" column="57" selection-start="10703" selection-end="10703" vertical-scroll-proportion="0.20343462">
+            <state line="275" column="57" selection-start="10703" selection-end="10703" vertical-scroll-proportion="0.25891677">
               <folding />
             </state>
           </provider>
@@ -236,18 +236,18 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ModuleEditorState">
-    <option name="LAST_EDITED_MODULE_NAME" value="JavaDocSyncPlugin" />
+    <option name="LAST_EDITED_MODULE_NAME" value="JavaDocManager" />
     <option name="LAST_EDITED_TAB_NAME" value="Libraries (Classpath)" />
   </component>
   <component name="PackagesPane">
     <subPane>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin.ipr" />
+          <option name="myItemId" value="JavaDocManager.ipr" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -291,39 +291,39 @@
     <subPane>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDoc Sync Plugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDoc Sync Plugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -349,15 +349,15 @@
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDoc Sync Plugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -387,15 +387,15 @@
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDoc Sync Plugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -425,15 +425,15 @@
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDoc Sync Plugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -467,15 +467,15 @@
       </PATH>
       <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDocSyncPlugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JavaDoc Sync Plugin" />
+          <option name="myItemId" value="JavaDocManager" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -529,27 +529,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDocSyncPlugin" />
+              <option name="myItemId" value="JavaDocManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDocSyncPlugin" />
+              <option name="myItemId" value="JavaDocManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDoc Sync Plugin" />
+              <option name="myItemId" value="JavaDocManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDocSyncPlugin" />
+              <option name="myItemId" value="JavaDocManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaDoc Sync Plugin" />
+              <option name="myItemId" value="JavaDocManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -563,13 +563,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -586,9 +586,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PsiViewer.ProjectComponent">
     <option name="HIGHLIGHT" value="false" />
@@ -614,12 +614,34 @@
       <recent name="org.brandon.ideaz.javadoc.inspections" />
     </key>
   </component>
-  <component name="RunManager" selected="Plugin.JavaDoc Sync Plugin">
+  <component name="RunManager" selected="Plugin.JavaDocManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="JavaDocManager" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <log_file path="$USER_HOME$/Library/Caches/IntelliJIDEA8x/plugins-sandbox/system/log/idea.log" checked="false" skipped="true" show_all="false" alias="IDEA LOG" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -703,9 +725,29 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testFindSuperConstructor" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -737,7 +779,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -760,7 +802,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testGenerateFromSignature" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -787,7 +829,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testIntroduceReference" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -814,7 +856,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testMoveToParentAndIntroduceReference" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -843,7 +885,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testTryToBreakMissingMethodJavaDocInspection" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -872,7 +914,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testMissingFieldJavaDoc" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -901,7 +943,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testSomeInterfaceInconsistencies" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -924,7 +966,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testSomeInterfaceMissingJavaDoc" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -953,7 +995,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testExtendingSomeInterfaceMissingJavaDoc" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -980,7 +1022,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testClassImplementingInterfaceMissingJavaDoc" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1009,7 +1051,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testClassImplementingInterfaceInconsistencies" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1036,7 +1078,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testImplementingMethodShouldNotSayOverride" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1063,7 +1105,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testClassExtendingObjectMissingJavaDoc" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1092,7 +1134,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testAddReference" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1119,7 +1161,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testHasReferenceToParentMethod" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1148,7 +1190,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testClassExtendingCustomClassInconsistencies" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1173,13 +1215,13 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="false" name="JavaDocSyncPluginTest.testGetSuperMethod" type="JUnit" factoryName="JUnit">
+    <configuration default="false" name="JavaDocManagerTest.testGetSuperMethod" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JavaDocSyncPluginTest" />
+      <option name="MAIN_CLASS_NAME" value="JavaDocManagerTest" />
       <option name="METHOD_NAME" value="testGetSuperMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Didea.plugins.load=false -Xbootclasspath/p:$IDEA_HOME/lib/boot.jar" />
@@ -1202,7 +1244,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testGenerateFromEnum" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1229,7 +1271,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testAddThreeLineReference" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1256,7 +1298,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testAddSingleLineReference" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1283,7 +1325,7 @@
     </configuration>
     <configuration default="false" name="JavaDocBaseInspectionTests.testIntroduceSingleLineReference" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="JavaDocSyncPlugin" />
+      <module name="JavaDocManager" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
@@ -1308,7 +1350,7 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
-    <configuration default="false" name="JavaDoc Sync Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="false" name="JavaDocManager" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="JavaDocManager" />
       <option name="VM_PARAMETERS" value="-XX:MaxPermSize=256m -Xms128m -Xmx512m" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -1341,12 +1383,12 @@
       <item index="14" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testAddReference" />
       <item index="15" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testHasReferenceToParentMethod" />
       <item index="16" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testClassExtendingCustomClassInconsistencies" />
-      <item index="17" class="java.lang.String" itemvalue="JUnit.JavaDocSyncPluginTest.testGetSuperMethod" />
+      <item index="17" class="java.lang.String" itemvalue="JUnit.JavaDocManagerTest.testGetSuperMethod" />
       <item index="18" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testGenerateFromEnum" />
       <item index="19" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testAddThreeLineReference" />
       <item index="20" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testAddSingleLineReference" />
       <item index="21" class="java.lang.String" itemvalue="JUnit.JavaDocBaseInspectionTests.testIntroduceSingleLineReference" />
-      <item index="22" class="java.lang.String" itemvalue="Plugin.JavaDoc Sync Plugin" />
+      <item index="22" class="java.lang.String" itemvalue="Plugin.JavaDocManager" />
     </list>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
@@ -1395,7 +1437,7 @@
   <component name="SvnChangesBrowserSettings">
     <option name="USE_AUTHOR_FIELD" value="true" />
     <option name="AUTHOR" value="" />
-    <option name="LOCATION" value="file:///E:/SvnRepo/JavaDocSyncPlugin/Release-1.0.2" />
+    <option name="LOCATION" value="file:///E:/SvnRepo/JavaDocManager/Release-1.0.2" />
     <option name="USE_PROJECT_SETTINGS" value="true" />
     <option name="USE_ALTERNATE_LOCATION" value="false" />
   </component>
@@ -1479,8 +1521,8 @@
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3842239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1490,8 +1532,8 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1678,7 +1720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/perniciouspenguins/ideaz/javadoc/util/PsiUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="57" selection-start="10703" selection-end="10703" vertical-scroll-proportion="0.20343462">
+        <state line="275" column="57" selection-start="10703" selection-end="10703" vertical-scroll-proportion="0.25891677">
           <folding />
         </state>
       </provider>

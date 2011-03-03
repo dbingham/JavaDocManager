@@ -141,7 +141,7 @@
     <option name="USE_PROJECT_PROFILE" value="true" />
     <version value="1.0" />
   </component>
-  <component name="JavaDocSync.settings">
+  <component name="JavaDocManager.settings">
     <option name="checkInnerClasses" value="true" />
     <option name="checkAnonymousClasses" value="true" />
     <option name="methodDetectionLevel" />
@@ -317,7 +317,7 @@
     </group>
   </component>
   <component name="ProjectDetails">
-    <option name="projectName" value="JavaDocSyncPlugin" />
+    <option name="projectName" value="JavaDocManager" />
   </component>
   <component name="ProjectModuleManager">
     <modules>
