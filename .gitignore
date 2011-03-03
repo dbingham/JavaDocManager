@@ -4,8 +4,10 @@
 dist/
 build/
 bin/
+classes/
 release/
 test-results/
+test-classes/
 
 
 # OS generated files #
