@@ -1,0 +1,118 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin>
+    <name>JavaDoc Sync Plugin 8</name>
+    <description>
+        The JavaDoc Sync Plugin will assist you to keep your
+        JavaDoc in sync between interface definitions and the
+        implementations, or method definitions and method overrides.
+        The plugin now uses template based generation of JavaDoc, so
+        that the JavaDoc text can now easily be customized to your needs.&lt;br&gt;&lt;br&gt;
+
+        The JavaDoc Sync Plugin was originally written by Raymond Brandon but was updated for IntelliJ 8 by
+        Daniel Bingham &lt;br&gt;&lt;br&gt;
+
+        The JavaDoc Sync Plugin can: &lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;highlight methods that define the @inheritDoc tag but there's no super method&lt;/li&gt;
+        &lt;li&gt;highlight methods that define the @inheritDoc tag but the super method doesn't have javaDoc&lt;/li&gt;
+        &lt;li&gt;highlight a class if one or more methods do not define JavaDoc&lt;/li&gt;
+        &lt;li&gt;Generate JavaDoc for all methods that do not define JavaDoc according to user defined templates&lt;/li&gt;
+        &lt;li&gt;Ignore methods that do not match the configured access modifier level&lt;/li&gt;
+        &lt;li&gt;Ignore overridden methods of anonymous classes or inner classes&lt;/li&gt;
+        &lt;li&gt;highlight methods that do not have JavaDoc&lt;/li&gt;
+        &lt;li&gt;highlight fields that do not have JavaDoc&lt;/li&gt;
+        &lt;li&gt;highlight methods of interface implementations of which
+        the JavaDoc differs from the JavaDoc defined at interface level&lt;/li&gt;
+        &lt;li&gt;highlight overridden methods/constructors of which
+        the JavaDoc differs from the JavaDoc defined in the super classes&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;br&gt;
+        When the JavaDoc Sync Plugin detects differences between the
+        defining interface or base method and the implementing or
+        overriding method, the user will get quick fixes presented to
+        update the JavaDoc like:&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Copy JavaDoc from parent&lt;/li&gt;
+        &lt;li&gt;Move to parent and introduce reference&lt;/li&gt;
+        &lt;li&gt;Replace parent JavaDoc&lt;/li&gt;
+        &lt;li&gt;Generate JavaDoc from signature&lt;/li&gt;
+        &lt;li&gt;Generate JavaDoc from field&lt;/li&gt;
+        &lt;li&gt;Generate JavaDoc for all methods&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;br&gt;
+        To turn on the JavaDoc Sync plugin, go to Settings-&gt;Errors and select &quot;JavaDoc issues&quot;
+    </description>
+    <category>Code tools</category>
+    <version>2.1</version>
+    <vendor url="http://macapps.perniciouspenguins.com" email="webmasterATperniciouspenguinsDOTcom">Daniel Bingham</vendor>
+    <idea-version min="8.0" since-build="8823"/>
+    <change-notes>
+        14 Apr 2009 Added functionality, tested against 8.1(9732):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Added FIELD_COMMENT variable in the Getter Method and Setter Method templates.&lt;/li&gt;
+        &lt;/ul&gt;        
+        07 Apr 2009 Bug fix release, tested against 8.1(9732):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Fixes StringIndexOutOfBoundsException when checking for reference to parent method.&lt;/li&gt;
+        &lt;li&gt;Fixes incorrectly formatted Regular Expression when method arguments contained square brackets (i.e. "[]")&lt;/li&gt;
+        &lt;/ul&gt;
+        04 Oct 2008 Updated to use the changed plugin API with IntelliJ 8.&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;This update breaks backwards compatibility with previous IntelliJ versions.&lt;/li&gt;
+        &lt;/ul&gt;
+        10 Aug 2007 Bug fix release, tested against 6.0.5(6180):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Fixed duplicate introduce reference option.&lt;/li&gt;
+        &lt;li&gt;//TODO Fix JavaDoc insertion is reformatted automatically causing it not to match with parent anymore.&lt;/li&gt;
+        &lt;/ul&gt;
+        14 Jul 2007 Bug fix release, tested against 6.0.5(6180):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Fixed NullPointerException when generating reference for method of anonymous class.&lt;/li&gt;
+        &lt;/ul&gt;
+        11 Jul 2007 Added functionality, tested against 6.0.5(6180):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;New feature: support @inheritDoc tag. Verifies that parent has JavaDoc and highlights method if parent&lt;/li&gt;
+        doesn't.&lt;/li&gt;
+        &lt;li&gt;New feature: generate JavaDoc for all methods at once at class level&lt;/li&gt;
+        &lt;li&gt;New feature: configurable detection level for methods so that only methods with a certain access
+        modifier are checked for JavaDoc&lt;/li&gt;
+        &lt;li&gt;New feature: Ability to ignore methods of anonymous classes and inner classes&lt;/li&gt;
+        &lt;/ul&gt;
+        13 Mar 2007 Bug fixes and added functionality, tested against 6.0.4(6148):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;New feature: use templates to allow customization of generated JavaDoc.&lt;/li&gt;
+        &lt;li&gt;Bug: Generate JavaDoc for interface mentions class instead of interface&lt;/li&gt;
+        &lt;li&gt;Bug: Depth first in finding super method causes wrong methods in interface hierarchy to be compared
+        during inconsistency checks&lt;/li&gt;
+        &lt;li&gt;Known issue: Generating JavaDoc for Enum types fails&lt;/li&gt;
+        &lt;/ul&gt;
+        23 Jan 2007 Bug fixes and added functionality, tested against 6.0.2(6107) and 6.0.4(6148):&lt;br&gt;
+        &lt;ul&gt;
+        &lt;li&gt;Bug: Description of class implementing interface method without JavaDoc is &quot;Overridden method
+        does not have javadoc&quot; instead of &quot;Method implementation does not have JavaDoc&quot;&lt;/li&gt;
+        &lt;li&gt;Bug: Description of interface extending other interface and overriding method declaration without
+        JavaDoc is &quot;Method implementation does not have JavaDoc&quot; instead of &quot;Overridden method does not
+        have JavaDoc&quot;&lt;/li&gt;
+        &lt;li&gt;Bug: Insertion of JavaDoc reference is mangled;&lt;/li&gt;
+        &lt;li&gt;Bug: JavaDoc reference is not recognized when it contains qualified package although class is in same
+        package as referenced class;&lt;/li&gt;
+        &lt;li&gt;Bug: Constructor without JavaDoc is interpreted as overridden method;&lt;/li&gt;
+        &lt;li&gt;Bug: Classes that extend each other should not need to have identical JavaDoc in constructors;&lt;/li&gt;
+        &lt;li&gt;Reported bug by Henne Huhu: NullPointerException while editing in Jsp;&lt;/li&gt;
+        &lt;li&gt;New feature: Inspection of missing JavaDoc on class level&lt;/li&gt;
+        &lt;li&gt;New feature: &quot;Add reference to parent&quot; to solve inconsistent JavaDoc between two methods and
+        keeping the exsisting JavaDoc&lt;/li&gt;
+        &lt;/ul&gt;
+        23 Dec 2006 Update to IntelliJ 6.0, including bug fixes and publication to plugins.intellij.net&lt;br&gt;
+        27 Dec 2005 Initial build for IntelliJ 5.0&lt;br&gt;
+    </change-notes>
+    <application-components>
+        <component>
+            <implementation-class>com.perniciouspenguins.ideaz.javadoc.JavaDocManager</implementation-class>
+        </component>
+        <component>
+            <implementation-class>com.perniciouspenguins.ideaz.javadoc.templates.config.TemplateConfiguration
+            </implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>

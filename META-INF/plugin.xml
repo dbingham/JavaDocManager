@@ -1,0 +1,23 @@
+<idea-plugin version="2">
+    <name>JavaDoc Manager</name>
+    <description>The JavaDoc Manager plugin will help maintain your JavaDocs by providing template based creation,
+        syncing JavaDocs from parent classes/interfaces, etc.
+    </description>
+    <category>Code tools</category>
+    <version>1.0</version>
+    <vendor url="http://macapps.perniciouspenguins.com" email="webmasterATperniciouspenguinsDOTcom">Daniel Bingham
+    </vendor>
+    <idea-version min="10.0" since-build="99.18"/>
+    <change-notes>
+        24 Feb 2011 Initial build for IntelliJ 10.0&lt;br&gt;
+    </change-notes>
+    <application-components>
+        <component>
+            <implementation-class>com.perniciouspenguins.ideaz.javadoc.JavaDocManager</implementation-class>
+        </component>
+        <component>
+            <implementation-class>com.perniciouspenguins.ideaz.javadoc.templates.config.TemplateConfiguration
+            </implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>

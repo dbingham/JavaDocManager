@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE idea-plugin-registry PUBLIC "-//IntelliJ Technology Network//DTD Plugin Manager 0.1//EN"
+        "http://www.intellij.org/twiki/pub/Main/PluginManager/idea-plugin-registry.dtd">
+
+<idea-plugin-registry>
+    <idea-plugin>
+        <name>JavaDoc Manager</name>
+        <description>Template Based JavaDoc Manager</description>
+        <version>1.0</version>
+        <vendor>Daniel Bingham</vendor>
+        <idea-version min="10.0" max="10.0"/>
+        <docUrl/>
+        <binUrl/>
+        <lastModified year="2011" month="02" day="24"/>
+    </idea-plugin>
+</idea-plugin-registry>
