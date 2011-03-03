@@ -1,0 +1,37 @@
+# Compiled source #
+###################
+*.class
+dist/
+build/
+bin/
+release/
+test-results/
+
+
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+Icon?
+Thumbs.db
+
+
+# Merge Documents #
+###################
+*.orig
+
+
+# IDE Artifacts #
+#################
+.classpath
+.project
+.metadata/
+.settings/
+nbproject/
+*.iml
+*.ipr
+*.iws
+
+# Build Properties #
+####################
+build.properties
