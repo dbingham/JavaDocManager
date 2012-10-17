@@ -259,60 +259,21 @@ public final class PsiUtils
      * @param psiDocComment the PsiDocComment that serves as the source.
      * @param destination the psi element which is capable of having a doc comment declaration.
      */
-    public static void setPsiDocComment( PsiDocComment psiDocComment, PsiDocCommentOwner destination )
+    public static void setPsiDocComment(PsiDocComment psiDocComment, PsiDocCommentOwner destination)
     {
-        if( psiDocComment != null )
-        {
-            try
-            {
+        if (psiDocComment != null) {
+            try {
                 PsiElement anchor = destination.getDocComment();
-                if( anchor != null )
-                {
-                    anchor.replace( psiDocComment );  // Replace THIS PsiElement with the new element
-                }
-                else
-                {
-                    //PsiElement firstChild = destination.getFirstChild();
-                    //FIXME: this works but throws errors
+                if (anchor != null) {
+                    anchor.replace(psiDocComment);  // Replace THIS PsiElement with the new element
+                } else {
                     PsiElement parent = destination.getParent();
-                    if( parent != null )
-                    {
-                        anchor = parent.addBefore( psiDocComment, destination.getFirstChild() );
-                        PsiElementFactory psiElementFactory =
-                                JavaPsiFacade.getInstance( destination.getProject() ).getElementFactory();
-
-                        PsiElement spaceFromText = psiElementFactory.createWhiteSpaceFromText( "\n " );
-                        parent.addAfter( spaceFromText, anchor );
-
-                        PsiElement psiElement = destination.getFirstChild().getPrevSibling();
-                        if( psiElement instanceof PsiWhiteSpace && psiElement != spaceFromText &&
-                            psiElement.getText().matches( "[\\s]+" ) )
-                        {
-                            psiElement.delete();
-                        }
+                    if (parent != null) {
+                        parent.addBefore(psiDocComment, destination);
                     }
-//                    if( null != firstChild )
-//                    {
-//                        anchor = destination.addBefore( psiDocComment, firstChild );
-//
-//                        PsiElementFactory psiElementFactory =
-//                                JavaPsiFacade.getInstance( destination.getProject() ).getElementFactory();
-//
-//                        PsiElement spaceFromText = psiElementFactory.createWhiteSpaceFromText( "\n " );
-//                        destination.addAfter( spaceFromText, anchor );
-//
-//                        PsiElement psiElement = firstChild.getPrevSibling();
-//                        if( psiElement instanceof PsiWhiteSpace && psiElement != spaceFromText &&
-//                            psiElement.getText().matches( "[\\s]+" ) )
-//                        {
-//                            psiElement.delete();
-//                        }
-//                    }
                 }
-            }
-            catch( IncorrectOperationException e )
-            {
-                log.error( "Failed to copy PsiDocComment " + e.getMessage() );
+            } catch (IncorrectOperationException e) {
+                log.error("Failed to copy PsiDocComment " + e.getMessage());
             }
         }
     }

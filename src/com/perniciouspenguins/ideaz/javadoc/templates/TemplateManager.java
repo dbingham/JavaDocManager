@@ -403,7 +403,7 @@ public class TemplateManager
         try
         {
             mergedText = FileTemplateUtil.mergeTemplate(
-                    template.getProperties(), template.getText().replaceAll( "\n\n", "\n" ) );
+                    template.getProperties(), template.getText().replaceAll( "\n\n", "\n" ), true );
         }
         catch( IOException e )
         {
