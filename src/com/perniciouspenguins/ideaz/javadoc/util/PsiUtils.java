@@ -267,10 +267,7 @@ public final class PsiUtils
                 if (anchor != null) {
                     anchor.replace(psiDocComment);  // Replace THIS PsiElement with the new element
                 } else {
-                    PsiElement parent = destination.getParent();
-                    if (parent != null) {
-                        parent.addBefore(psiDocComment, destination);
-                    }
+                    destination.addBefore( psiDocComment, destination.getFirstChild());
                 }
             } catch (IncorrectOperationException e) {
                 log.error("Failed to copy PsiDocComment " + e.getMessage());
