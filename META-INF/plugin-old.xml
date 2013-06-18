@@ -44,7 +44,7 @@
     </description>
     <category>Code tools</category>
     <version>2.1</version>
-    <vendor url="http://macapps.perniciouspenguins.com" email="webmasterATperniciouspenguinsDOTcom">Daniel Bingham</vendor>
+    <vendor url="http://dbingham.com" email="jdmanagerATdbinghamDOTcom">Daniel Bingham</vendor>
     <idea-version min="8.0" since-build="8823"/>
     <change-notes>
         14 Apr 2009 Added functionality, tested against 8.1(9732):&lt;br&gt;
